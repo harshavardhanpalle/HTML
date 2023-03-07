@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title >Login Page</title>
+    <h1>
+        Login Page 
+    </h1>
+    
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-style: bold ;
+        }
+        body{
+            background-color: rgba(12, 26, 179, 0.26);
+        }
+
+        fieldset{
+            color: rgba(24, 59, 130, 0.708);
+            background-color: rgba(198, 227, 237, 0.276);
+            padding: 1%;
+        }
+        
+    </style>
+    
+
+</head>
+<body>
+    
+    <form action="task1.html" target="_parent">
+        
+        <legend style="color: rgb(4, 1, 1);font-weight: bold; font-size:large" >Enter your details:</legend>
+        <fieldset>
+            
+        <label for="fname">Username: </label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="fname">Enter your email address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pwd">Enter your password:</label>
+        <input type="password" id="pwd" name="pwd" required><br><br>
+
+        <label for="Login">Login</label>
+        <input type="submit" id="Login" name="Login" value="Login" >
+
+        <label for="forgotpassword">Forgot your Password?</label>
+        <input type="reset" id="forgotpassword" name="forgot password" value="forgot  password" onclick="alert('Link has been sent your Email please check')" ><br>
+        
+        
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
